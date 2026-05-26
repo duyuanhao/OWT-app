@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: "Microsoft YaHei", "PingFang SC", "Inter", system-ui, sans-serif;
+  background: #07111f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 1280px;
+  min-height: 100vh;
+  background:
+    linear-gradient(90deg, rgba(34, 211, 238, 0.04) 1px, transparent 1px),
+    linear-gradient(rgba(34, 211, 238, 0.04) 1px, transparent 1px),
+    radial-gradient(circle at 18% 0%, rgba(14, 165, 233, 0.2), transparent 34%),
+    linear-gradient(135deg, #06101f 0%, #081a32 44%, #07111f 100%);
+  background-size: 42px 42px, 42px 42px, auto, auto;
+  color: #e5f4ff;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(103, 232, 249, 0.32);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(8, 18, 34, 0.7);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  border-bottom: 1px solid rgba(148, 197, 255, 0.13);
+  padding: 12px 14px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.data-table th {
+  color: #93c5fd;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  background: rgba(14, 39, 73, 0.72);
+}
+
+.data-table td {
+  color: #dbeafe;
+  font-size: 13px;
+}
+
+.recharts-cartesian-grid line {
+  stroke: rgba(148, 197, 255, 0.13);
+}

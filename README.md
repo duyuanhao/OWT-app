@@ -35,3 +35,4 @@ npm run build
 - `src/types/platform.ts`：工程数据类型定义。
 - `src/components`：布局、导航、指标卡、表格、状态标签、流程图、仪表盘等通用组件。
 - `src/pages`：平台总览、数据接入、状态监测、健康评估、故障诊断、寿命预测、维护决策、模型服务、知识库、平台验证。
+deploy test
